@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* gruppo contenitori */
+header{
+    width: 100%;
+    /* height: 100px; */
+    background-color: #06b167;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
+.contenitore-generale {
+    display: flex;
+    /* justify-content: space-between;  */
+    width: 100%;
+}
+
+.contenitore-numeri{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #06b167;
+    margin-left: 5% ;
+    width: 60%;
+    /* DEBUG */
+    border: 1px solid red;
+    height: 200px;
+}
+
+.contenitore-estrazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    /* DEBUG */
+    border: 1px solid red;
+    height: 200px;
+}
+
+
+
+/* layout di pagina */
+main{
+font-family: "Gochi Hand", serif;
+/* display: flex;
+align-items: center; */
+}
+body{
+    background-color: #06b167;
+}
+
+.row{
+    display: flex;            
+    justify-content: center; 
+    /* display: inline-block;
+    width: 100%; */
+    /* DEBUG */
+    /* border: 1px solid red; */
+}
+
+.cerchio {
+    width: 50px;           
+    height: 50px;          
+    background-color: #fff;
+    color: black;  
+    border-radius: 50%;     
+    display: flex;          
+    align-items: center;    
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div{
+    font-size: 30px
+}
+.quadrato{
+    width: 100px;           
+    height: 100px;
+    background-color: #fff;
+    color: black;      
+    display: block;          
+    align-items: center;    
+    justify-content: center; 
+    font-size: 32px;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-bottom: 1px solid white;
+    
+}
+.linea-nera {
+    border: 0;                   /* Rimuove il bordo predefinito */
+    border-top: 2px solid black; /* Imposta una linea nera sopra */
+    margin: 20px 0;              /* Aggiunge spazio sopra e sotto la linea */
+  }
+  hr{
+    width: 60%;
+    margin-top: 2%;
+    color: #fff;
+  }
